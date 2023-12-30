@@ -13,13 +13,12 @@
 	<name>RemoveDuplicatesFromSortedArray</name>
 	<description>Removing duplicates in a sorted array in-place</description>
 
-<!-- 	<dependencies>
-		<dependency>
-			<groupId>org.springframework.boot</groupId>
-			<artifactId>spring-boot-starter-actuator</artifactId>
-		</dependency>
-	</dependencies>
- -->
+	<properties>
+		<main.class>com.dsc.job.java.RemoveDuplicatesFromSortedArray</main.class>
+		<junit.jupiter.version>5.10.0</junit.jupiter.version>
+
+	</properties>
+
 	<build>
 		<plugins>
 			<plugin>
