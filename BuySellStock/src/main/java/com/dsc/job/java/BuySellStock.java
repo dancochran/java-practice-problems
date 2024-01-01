@@ -21,6 +21,7 @@ public class BuySellStock
                 if (prices[start] < prices[i]) 
                 {
                     // this behavior (worst case) of calling recursively in a nested loop is 2^n (a binary tree is created)
+                    // 2^n grows significantly faster than n^2 - see graph
                     int profit = calculate(prices, i + 1) + prices[i] - prices[start];
                     if (profit > max) max = profit;
                     // space complexity - The depth of the recursive call stack at any point is determined by the longest single path from the root call to the deepest call. 
