@@ -8,13 +8,13 @@
 		<artifactId>javaprobs</artifactId>
 		<version>1.0.0-SNAPSHOT</version>
 	</parent>
-	<artifactId>RemoveDuplicatesFromSortedArray</artifactId>
+	<artifactId>BuySellStock</artifactId>
 	<version>1.0.0-SNAPSHOT</version>
-	<name>RemoveDuplicatesFromSortedArray</name>
-	<description>Removing duplicates in a sorted array in-place</description>
+	<name>BuySellStock</name>
+	<description>Maximizing profit in an array</description>
 
 	<properties>
-		<main.class>com.dsc.job.java.RemoveDuplicatesFromSortedArray</main.class>
+		<main.class>com.dsc.job.java.BuySellStock</main.class>
 	</properties>
 
 	<build>
@@ -24,7 +24,7 @@
 				<artifactId>exec-maven-plugin</artifactId>
 				<version>3.1.1</version>
 				<configuration>
-					<mainClass>com.dsc.job.java.RemoveDuplicatesFromSortedArray</mainClass>
+					<mainClass>com.dsc.job.java.BuySellStock</mainClass>
 				</configuration>
 			</plugin>
 		</plugins>

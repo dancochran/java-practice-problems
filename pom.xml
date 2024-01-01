@@ -21,6 +21,7 @@
 
 	<modules>
 		<module>RemoveDuplicatesFromSortedArray</module>
+		<module>BuySellStock</module>
 	</modules>
 
 	<dependencies>
