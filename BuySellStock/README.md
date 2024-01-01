@@ -10,4 +10,4 @@ Find and return the maximum profit you can achieve.
 0 <= prices[i] <= 10^4  
 
 The brute force recursive method in the calculate() method has complexity O(2^n).  
-The following graph compares 2^n to n^2 on a log scale: ![alt text](Isolated.png "Title")
+The following graph compares 2^n to n^2 on a log scale: ![alt text](square-vs-exp.png "2^n vs n^2")
