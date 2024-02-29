@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" 
+		 xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+		 xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+	<parent>
+		<groupId>com.dsc.job.java</groupId>
+		<artifactId>javaprobs</artifactId>
+		<version>1.0.0-SNAPSHOT</version>
+	</parent>
+	<artifactId>RotateArray</artifactId>
+	<version>1.0.0-SNAPSHOT</version>
+	<name>RotateArray</name>
+	<description>Rotate array to the right by k steps</description>
+
+	<properties>
+		<main.class>com.dsc.job.java.RotateArray</main.class>
+	</properties>
+
+	<build>
+		<plugins>
+			<plugin>
+				<groupId>org.codehaus.mojo</groupId>
+				<artifactId>exec-maven-plugin</artifactId>
+				<version>3.1.1</version>
+				<configuration>
+					<mainClass>com.dsc.job.java.RotateArray</mainClass>
+				</configuration>
+			</plugin>
+		</plugins>
+	</build>
+
+</project>
